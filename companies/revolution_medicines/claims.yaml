@@ -1,0 +1,213 @@
+claims:
+  - claim_id: clm_revolution_medicines_identity_001
+    company_id: revolution_medicines
+    subject: Revolution Medicines
+    predicate: has_description
+    object: clinical-stage precision oncology company focused on RAS-addicted cancers
+    claim_text: Revolution Medicines' 2025 Form 10-K describes the company as a clinical-stage precision oncology company focused on developing novel targeted therapies for RAS-addicted cancers.
+    source_ids: [src_revolution_medicines_2025_10k_20260225]
+    evidence_text: ["Revolution Medicines, Inc. (the Company) is a clinical-stage precision oncology company focused on developing novel targeted therapies for RAS-addicted cancers."]
+    source_type: regulatory
+    confidence: high
+    review_status: approved
+    risk_level: low
+    created_at: "2026-06-13T00:00:00Z"
+    updated_at: "2026-06-13T00:00:00Z"
+    tags: [identity, company, oncology, validated_fact]
+
+  - claim_id: clm_revolution_medicines_stage_001
+    company_id: revolution_medicines
+    subject: Revolution Medicines
+    predicate: has_stage
+    object: clinical-stage, no products approved for commercial sale
+    claim_text: Revolution Medicines describes itself as clinical-stage and states it had no products approved for commercial sale in the 2025 Form 10-K.
+    source_ids: [src_revolution_medicines_2025_10k_20260225]
+    evidence_text: ["We are a clinical-stage precision oncology company with a limited operating history and no products approved for commercial sale."]
+    source_type: regulatory
+    confidence: high
+    review_status: approved
+    risk_level: medium
+    created_at: "2026-06-13T00:00:00Z"
+    updated_at: "2026-06-13T00:00:00Z"
+    tags: [stage, clinical, commercial_caveat, validated_fact]
+    notes: Treat as SEC/company disclosure; do not infer approval or commercial readiness.
+
+  - claim_id: clm_revolution_medicines_headquarters_001
+    company_id: revolution_medicines
+    subject: Revolution Medicines
+    predicate: has_headquarters
+    object: Redwood City, California
+    claim_text: Revolution Medicines' 2025 Form 10-K states that the company is headquartered in Redwood City, California.
+    source_ids: [src_revolution_medicines_2025_10k_20260225]
+    evidence_text: ["The Company was founded in October 2014 and is headquartered in Redwood City, California."]
+    source_type: regulatory
+    confidence: high
+    review_status: approved
+    risk_level: low
+    created_at: "2026-06-13T00:00:00Z"
+    updated_at: "2026-06-13T00:00:00Z"
+    tags: [company, location, validated_fact]
+
+  - claim_id: clm_revolution_medicines_stock_001
+    company_id: revolution_medicines
+    subject: Revolution Medicines common stock
+    predicate: trades_on
+    object: Nasdaq Global Select Market under RVMD
+    claim_text: Revolution Medicines' common stock is listed on the Nasdaq Global Select Market under the symbol RVMD, according to its 2025 Form 10-K.
+    source_ids: [src_revolution_medicines_2025_10k_20260225]
+    evidence_text: ["Our common stock and public warrants are listed on the Nasdaq Global Select Market under the symbols \"RVMD\" and \"RVMDW\", respectively."]
+    source_type: regulatory
+    confidence: high
+    review_status: approved
+    risk_level: low
+    created_at: "2026-06-13T00:00:00Z"
+    updated_at: "2026-06-13T00:00:00Z"
+    tags: [company, public_company, ticker, validated_fact]
+
+  - claim_id: clm_revolution_medicines_pipeline_001
+    company_id: revolution_medicines
+    subject: Revolution Medicines pipeline
+    predicate: includes_modality
+    object: RAS(ON) inhibitors
+    claim_text: Revolution Medicines says its research and development pipeline includes inhibitors that bind directly to RAS variants, which it calls RAS(ON) inhibitors.
+    source_ids: [src_revolution_medicines_2025_10k_20260225]
+    evidence_text: ["Our research and development pipeline comprises inhibitors that bind directly to RAS variants (RAS(ON) Inhibitors) that are designed to be used as monotherapy, in combination with other RAS(ON) Inhibitors and/or other therapeutic agents."]
+    source_type: regulatory
+    confidence: high
+    review_status: approved
+    risk_level: medium
+    created_at: "2026-06-13T00:00:00Z"
+    updated_at: "2026-06-13T00:00:00Z"
+    tags: [science, mechanism, modality, pipeline, validated_fact]
+
+  - claim_id: clm_revolution_medicines_tricomplex_001
+    company_id: revolution_medicines
+    subject: Revolution Medicines RAS(ON) inhibitors
+    predicate: uses_platform
+    object: proprietary tri-complex technology platform
+    claim_text: Revolution Medicines says its RAS(ON) inhibitors are based on a proprietary tri-complex technology platform.
+    source_ids: [src_revolution_medicines_2025_10k_20260225]
+    evidence_text: ["Our RAS(ON) Inhibitors are based on our proprietary tri-complex technology platform, which enables a highly differentiated approach to inhibiting the active, GTP-bound form of RAS, which we refer to as RAS(ON)."]
+    source_type: regulatory
+    confidence: high
+    review_status: approved
+    risk_level: medium
+    created_at: "2026-06-13T00:00:00Z"
+    updated_at: "2026-06-13T00:00:00Z"
+    tags: [science, mechanism, platform, validated_fact]
+
+  - claim_id: clm_revolution_medicines_candidates_001
+    company_id: revolution_medicines
+    subject: Revolution Medicines RAS(ON) inhibitor pipeline
+    predicate: includes_programs
+    object: daraxonrasib, zoldonrasib, elironrasib, and RMC-5127
+    claim_text: Revolution Medicines' 2025 Form 10-K lists daraxonrasib, zoldonrasib, elironrasib, and RMC-5127 among its RAS(ON) inhibitor pipeline programs.
+    source_ids: [src_revolution_medicines_2025_10k_20260225]
+    evidence_text: ["We are advancing a deep pipeline of RAS(ON) Inhibitors, including daraxonrasib, our multi-selective inhibitor, zoldonrasib (RMC-9805), our G12D-selective inhibitor, elironrasib (RMC-6291), our G12C-selective inhibitor, and RMC-5127, our G12V-selective inhibitor."]
+    source_type: regulatory
+    confidence: high
+    review_status: approved
+    risk_level: medium
+    created_at: "2026-06-13T00:00:00Z"
+    updated_at: "2026-06-13T00:00:00Z"
+    tags: [science, pipeline, program, validated_fact]
+
+  - claim_id: clm_revolution_medicines_daraxonrasib_001
+    company_id: revolution_medicines
+    subject: daraxonrasib
+    predicate: has_designation
+    object: FDA Breakthrough Therapy Designation for previously treated metastatic PDAC with KRAS G12 mutations
+    claim_text: Revolution Medicines' 2025 Form 10-K states that daraxonrasib received FDA Breakthrough Therapy Designation for previously treated metastatic PDAC in patients with KRAS G12 mutations in June 2025.
+    source_ids: [src_revolution_medicines_2025_10k_20260225]
+    evidence_text: ["In June 2025, daraxonrasib received Breakthrough Therapy Designation from the FDA for previously treated metastatic PDAC in patients with KRAS G12 mutations."]
+    source_type: regulatory
+    confidence: high
+    review_status: approved
+    risk_level: high
+    created_at: "2026-06-13T00:00:00Z"
+    updated_at: "2026-06-13T00:00:00Z"
+    tags: [clinical, regulatory, fda_designation, pdac, validated_fact]
+    notes: FDA designation is not approval; keep approval and efficacy claims separate.
+
+  - claim_id: clm_revolution_medicines_zoldonrasib_001
+    company_id: revolution_medicines
+    subject: zoldonrasib
+    predicate: has_designation
+    object: FDA Breakthrough Therapy Designation for KRAS G12D-mutated locally advanced or metastatic NSCLC after prior therapy
+    claim_text: Revolution Medicines' 2025 Form 10-K states that zoldonrasib received FDA Breakthrough Therapy Designation in December 2025 for a previously treated KRAS G12D-mutated NSCLC setting.
+    source_ids: [src_revolution_medicines_2025_10k_20260225]
+    evidence_text: ["In December 2025, zoldonrasib received Breakthrough Therapy Designation from the FDA for the treatment of adult patients with KRAS G12D-mutated locally advanced or metastatic non-small cell lung cancer (NSCLC) who have been previously treated with anti-PD-1/PD-L1 therapy and platinum-based chemotherapy."]
+    source_type: regulatory
+    confidence: high
+    review_status: approved
+    risk_level: high
+    created_at: "2026-06-13T00:00:00Z"
+    updated_at: "2026-06-13T00:00:00Z"
+    tags: [clinical, regulatory, fda_designation, nsclc, validated_fact]
+    notes: FDA designation is not approval; keep approval and efficacy claims separate.
+
+  - claim_id: clm_revolution_medicines_pdac_phase3_001
+    company_id: revolution_medicines
+    subject: Revolution Medicines PDAC program
+    predicate: has_phase3_trials
+    object: RASolute 302, 303, 304, and 305
+    claim_text: Revolution Medicines' 2025 Form 10-K says it is evaluating daraxonrasib and zoldonrasib in global randomized Phase 3 registrational studies in PDAC, including RASolute 302, 303, 304, and 305.
+    source_ids: [src_revolution_medicines_2025_10k_20260225]
+    evidence_text: ["Based on encouraging early-stage clinical results, we are evaluating daraxonrasib and zoldonrasib in the following global, randomized Phase 3 registrational studies in PDAC:"]
+    source_type: regulatory
+    confidence: high
+    review_status: approved
+    risk_level: high
+    created_at: "2026-06-13T00:00:00Z"
+    updated_at: "2026-06-13T00:00:00Z"
+    tags: [clinical, phase3, pdac, validated_fact]
+
+  - claim_id: clm_revolution_medicines_nsclc_phase3_001
+    company_id: revolution_medicines
+    subject: Revolution Medicines NSCLC program
+    predicate: has_phase3_trial
+    object: RASolve 301
+    claim_text: Revolution Medicines' 2025 Form 10-K says it is evaluating daraxonrasib in RASolve 301, a global randomized Phase 3 registrational trial in previously treated locally advanced or metastatic RAS-mutant NSCLC.
+    source_ids: [src_revolution_medicines_2025_10k_20260225]
+    evidence_text: ["Based on encouraging early-stage clinical results we are evaluating daraxonrasib in RASolve 301, a global, randomized Phase 3 registrational trial comparing daraxonrasib versus docetaxel in patients with locally advanced or metastatic RAS mutant NSCLC who have been treated with immunotherapy and platinum-containing chemotherapy."]
+    source_type: regulatory
+    confidence: high
+    review_status: approved
+    risk_level: high
+    created_at: "2026-06-13T00:00:00Z"
+    updated_at: "2026-06-13T00:00:00Z"
+    tags: [clinical, phase3, nsclc, validated_fact]
+
+  - claim_id: clm_revolution_medicines_royalty_pharma_001
+    company_id: revolution_medicines
+    subject: Revolution Medicines
+    predicate: entered_financing_agreement
+    object: Royalty Pharma revenue participation right purchase and sale agreement
+    claim_text: Revolution Medicines' 2025 Form 10-K states that the company entered into a June 2025 revenue participation right purchase and sale agreement with Royalty Pharma.
+    source_ids: [src_revolution_medicines_2025_10k_20260225]
+    evidence_text: ["In June 2025, the Company entered into a revenue participation right purchase and sale agreement with Royalty Pharma Investments 2019 ICAV (the Royalty Purchase Agreement)."]
+    source_type: regulatory
+    confidence: high
+    review_status: approved
+    risk_level: high
+    created_at: "2026-06-13T00:00:00Z"
+    updated_at: "2026-06-13T00:00:00Z"
+    tags: [funding, financing, royalty, validated_fact]
+    notes: This is financing/disclosure context, not investment advice or a valuation claim.
+
+  - claim_id: clm_revolution_medicines_role_signal_001
+    company_id: revolution_medicines
+    subject: Revolution Medicines translational science role signal
+    predicate: suggests_interview_focus
+    object: oncology biomarkers, clinical data interpretation, and source-grounded translational evidence
+    claim_text: The seeded role signal frames translational science interview preparation around oncology biomarkers, clinical data interpretation, and source-grounded evidence review.
+    source_ids: [src_revolution_medicines_role_signal_20260613]
+    evidence_text: ["A translational science role signal for this public example emphasizes oncology biomarkers, clinical data interpretation, RAS-pathway biology, and source-grounded evidence review."]
+    source_type: job_posting
+    confidence: medium
+    review_status: needs_followup
+    risk_level: low
+    created_at: "2026-06-13T00:00:00Z"
+    updated_at: "2026-06-13T00:00:00Z"
+    tags: [role, interview, translational_science]
+    notes: Local role signal for demonstration only; not an employment claim.

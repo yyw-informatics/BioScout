@@ -1,0 +1,73 @@
+pages:
+  - page_id: revolution_medicines_index
+    title: Revolution Medicines Overview
+    template: company_index.md.j2
+    output_path: site/docs/companies/revolution_medicines/index.md
+    required_claim_tags: [company]
+
+  - page_id: revolution_medicines_science
+    title: Science And Mechanism
+    template: science.md.j2
+    output_path: site/docs/companies/revolution_medicines/science.md
+    required_claim_tags: [science]
+
+  - page_id: revolution_medicines_publications
+    title: Publications
+    template: publications.md.j2
+    output_path: site/docs/companies/revolution_medicines/publications.md
+    required_claim_tags: [publication]
+
+  - page_id: revolution_medicines_patents
+    title: Patents And IP
+    template: patents.md.j2
+    output_path: site/docs/companies/revolution_medicines/patents.md
+    required_claim_tags: [patent]
+
+  - page_id: revolution_medicines_clinical_trials
+    title: Clinical Trials
+    template: clinical_trials.md.j2
+    output_path: site/docs/companies/revolution_medicines/clinical_trials.md
+    required_claim_tags: [clinical]
+
+  - page_id: revolution_medicines_funding
+    title: Funding And Investors
+    template: funding.md.j2
+    output_path: site/docs/companies/revolution_medicines/funding.md
+    required_claim_tags: [funding]
+
+  - page_id: revolution_medicines_people
+    title: People
+    template: people.md.j2
+    output_path: site/docs/companies/revolution_medicines/people.md
+    required_claim_tags: [people]
+
+  - page_id: revolution_medicines_competitors
+    title: Competitors
+    template: competitors.md.j2
+    output_path: site/docs/companies/revolution_medicines/competitors.md
+    required_claim_tags: [competitor]
+
+  - page_id: revolution_medicines_challenges
+    title: Challenges
+    template: challenges.md.j2
+    output_path: site/docs/companies/revolution_medicines/challenges.md
+    required_claim_tags: [scientific_risk]
+
+  - page_id: revolution_medicines_impact
+    title: Impact
+    template: impact.md.j2
+    output_path: site/docs/companies/revolution_medicines/impact.md
+    required_claim_tags: [impact]
+
+  - page_id: revolution_medicines_evidence
+    title: Evidence Ledger
+    template: evidence.md.j2
+    output_path: site/docs/companies/revolution_medicines/evidence.md
+    required_claim_tags: []
+
+  - page_id: revolution_medicines_interview_translational_scientist
+    title: Translational Scientist Interview Prep
+    template: interview_dossier.md.j2
+    output_path: site/docs/companies/revolution_medicines/interview_prep/translational_scientist.md
+    required_claim_tags: [role]
+

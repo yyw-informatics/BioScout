@@ -1,0 +1,31 @@
+sources:
+  - source_id: src_revolution_medicines_2025_10k_20260225
+    title: Revolution Medicines 2025 Form 10-K
+    url: https://www.sec.gov/Archives/edgar/data/1628171/000119312526071563/rvmd-20251231.htm
+    source_type: regulatory
+    publisher: U.S. Securities and Exchange Commission
+    retrieved_at: "2026-06-13T00:00:00Z"
+    date_published: "2026-02-25T00:00:00Z"
+    fixture_path: tests/fixtures/revolution_medicines_2025_10k_excerpt.txt
+    reliability: high
+    notes: Compact excerpt from the public 2025 Form 10-K for deterministic BioScout tests.
+
+  - source_id: src_revolution_medicines_website_20260613
+    title: Revolution Medicines website excerpt
+    url: https://www.revmed.com/
+    source_type: official_company_site
+    publisher: Revolution Medicines
+    retrieved_at: "2026-06-13T00:00:00Z"
+    fixture_path: tests/fixtures/revolution_medicines_website_excerpt.txt
+    reliability: high
+    notes: Compact excerpt from public company-facing material used for identity and positioning context.
+
+  - source_id: src_revolution_medicines_role_signal_20260613
+    title: Revolution Medicines translational science role signal
+    source_type: job_posting
+    publisher: Revolution Medicines public hiring signal
+    retrieved_at: "2026-06-13T00:00:00Z"
+    fixture_path: tests/fixtures/revolution_medicines_role_signal.txt
+    reliability: medium
+    notes: Local fixture summarizing a public role signal used only for interview-prep report mode.
+

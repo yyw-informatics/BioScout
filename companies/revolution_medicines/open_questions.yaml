@@ -1,0 +1,25 @@
+open_questions:
+  - question_id: oq_revolution_medicines_clinical_001
+    company_id: revolution_medicines
+    question: Which RAS(ON) clinical-stage claims are supported only by company/SEC disclosure, and which have independent registry or publication support?
+    priority: high
+    tags: [clinical, source_authority]
+
+  - question_id: oq_revolution_medicines_ip_001
+    company_id: revolution_medicines
+    question: Which patent families are directly assigned to Revolution Medicines, and how should candidate patent hits be separated from ownership conclusions?
+    priority: high
+    tags: [ip, patent, ownership]
+
+  - question_id: oq_revolution_medicines_financing_001
+    company_id: revolution_medicines
+    question: What can BioScout safely say about Royalty Pharma financing terms without implying product approval, commercialization success, or valuation conclusions?
+    priority: medium
+    tags: [funding, financing, commercialization]
+
+  - question_id: oq_revolution_medicines_competition_001
+    company_id: revolution_medicines
+    question: Which RAS G12C, G12D, G12V, pan-RAS, and related targeted-oncology programs should be tracked as comparable or competing programs?
+    priority: medium
+    tags: [competitor, science, clinical]
+

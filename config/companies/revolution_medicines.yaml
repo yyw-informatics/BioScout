@@ -1,0 +1,11 @@
+company_id: revolution_medicines
+canonical_name: Revolution Medicines
+company_url: https://www.revmed.com/
+therapeutic_areas:
+  - oncology
+  - precision oncology
+  - RAS-addicted cancers
+initial_stage: clinical-stage
+seed_config_path: companies/revolution_medicines/seed_sources.yaml
+claim_config_path: companies/revolution_medicines/claims.yaml
+

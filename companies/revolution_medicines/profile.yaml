@@ -1,0 +1,28 @@
+company_id: revolution_medicines
+canonical_name: Revolution Medicines
+aliases:
+  - Revolution Medicines
+  - Revolution Medicines, Inc.
+  - RVMD
+negative_aliases:
+  - Revolution Beauty
+  - Revolution Foods
+summary: "Revolution Medicines is seeded here as a public, clinical-stage precision oncology example focused on RAS-addicted cancers. BioScout treats company and SEC disclosures as source-backed claims while preserving caveats around clinical data, approval status, commercialization, IP, and financing."
+therapeutic_areas:
+  - oncology
+  - precision oncology
+  - RAS-addicted cancers
+modalities:
+  - small molecule inhibitors
+  - RAS(ON) inhibitors
+  - tri-complex inhibitors
+stage: clinical-stage
+website: https://www.revmed.com/
+locations:
+  - Redwood City, CA
+confidence: high
+summary_claim_ids:
+  - clm_revolution_medicines_identity_001
+  - clm_revolution_medicines_stage_001
+  - clm_revolution_medicines_pipeline_001
+
